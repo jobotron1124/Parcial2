@@ -54,18 +54,30 @@ header {
   }
   table {
     width: 100%;
-   border: 1px solid #999;
    text-align: left;
    border-collapse: collapse;
    margin: 0 0 1em 0;
    caption-side: top;
+   background-color: rgb(238, 246, 5);
+
  }
+ caption, td, th {
+    padding: 0.3em;
+ }
+ tbody {
+    border: 1px solid rgb(14, 14, 14);
+    border-bottom: 1px dotted rgb(246, 11, 11);
+ }
+
+
  .TAB{
     color:rgb(226, 43, 55);
+    
  }
  .TEXT{
-    color:rgb(226, 43, 55);
+    text-align:justify;
  }
+
 
 
 
