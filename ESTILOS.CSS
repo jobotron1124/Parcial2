@@ -25,32 +25,94 @@ header {
   nav ul li:hover {
     background: #2355ec;
   }
+  .A:focus{
+
+    background: #2355ec;
+
+  }
   .A{
     text-decoration: underline rgb(0, 255, 170); 
     color:rgb(43, 226, 101);
+    cursor: pointer;
+    
+
+  }
+  .A:hover{
+
+    background: #2355ec;
+
+  }
+  .B:focus{
+
+    background: #2355ec;
+
   }
   .B{
     color:rgb(226, 43, 55);
     
   }
+  .B:hover{
 
+    background: #2355ec;
+
+  }
+  .C:focus{
+
+    background: #2355ec;
+
+  }
 .C{
   border-bottom: 2px solid #000102;
   border-top: 2px solid #000102;
+}
+.C:hover{
+
+  background: #2355ec;
+
+}
+.D:focus{
+
+  background: #2355ec;
+
 }
 .D{
     font-weight: bold;
     font-size: 40px;
 
   }
+  .D:hover{
+
+    background: #2355ec;
+  
+  }
+  .E:focus{
+
+    background: #2355ec;
+  
+  }
   .E{
     
     color:rgb(43, 64, 226);
+  }
+  .E:hover{
+
+    background: #2355ec;
+  
+  }
+  .F:focus{
+
+    background: #2355ec;
+  
   }
   .F{
     
     color:rgb(226, 43, 55);
     border-bottom: 2px solid #ee1515;
+  }
+  .F:hover{
+
+    background: #2355ec;
+  
   }
   table {
     width: 100%;
@@ -92,7 +154,9 @@ header {
  }
  .T{
   
-  text-align:justify;
+  text-align:left;
+  width: 55%;
+  margin: 20%;
 
  }
  .DG{
